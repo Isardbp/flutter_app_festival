@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Example text title"),
       ),
       body: Container(
-        //child: Dashboard,
+        //child: Dashboard(),
       ),
       drawer: Drawer(
         child: ListView(
