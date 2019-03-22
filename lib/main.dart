@@ -51,15 +51,33 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             ListTile(
-              title: Text("Item 1"),
+              title: Text("Programació"),
               onTap: () {
                 Navigator.of(context).pop();
                 //Navigator.of(context).push();
               },
             ),
             ListTile(
-              title: Text("Item 2"),
-            )
+              title: Text("Artistes"),
+              onTap: () {
+                Navigator.of(context).pop();
+                //Navigator.of(context).push();
+              },
+            ),
+            ListTile(
+              title: Text("Espais"),
+              onTap: () {
+                Navigator.of(context).pop();
+                //Navigator.of(context).push();
+              },
+            ),
+            ListTile(
+              title: Text("Com arrabar-hi"),
+              onTap: () {
+                Navigator.of(context).pop();
+                //Navigator.of(context).push();
+              },
+            ),
           ],
         ),
       ),
